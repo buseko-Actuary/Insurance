@@ -1,26 +1,43 @@
-# Medical Insurance Charge Prediction
+<h1 align="center">💰 Medical Insurance Charge Prediction</h1>
 
-A regression project that predicts individual medical insurance charges from personal and health attributes — directly relevant to actuarial pricing and risk assessment work.
+<p align="center"><b>Predicting individual medical insurance charges from personal & health risk factors — a regression project with direct actuarial relevance.</b></p>
 
-## The problem
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
+  <img src="https://img.shields.io/badge/Task-Regression-blue?style=flat-square" alt="Regression"/>
+  <img src="https://img.shields.io/badge/Domain-Insurance%20%2F%20Risk-green?style=flat-square" alt="Insurance"/>
+</p>
 
-Healthcare costs are one of the most significant financial pressures on individuals, insurers, and society. Using a dataset capturing age, sex, BMI, number of children, smoking status, and region alongside actual billed insurance charges, this project builds a predictive model for expected charges. The goal is two-fold: understand which factors most strongly drive medical costs, and provide a reliable cost-estimation tool that could support risk-based pricing decisions.
+---
 
-## What this covers
+## 🎯 The problem
 
-- Data cleaning and exploratory data analysis of the insurance dataset
-- Investigating how age, BMI, smoking status, number of children, and region each relate to charges
-- Building and evaluating regression models to estimate expected charges from these features
-- Interpreting which factors carry the most weight — smoking status and BMI are classic strong predictors in this kind of dataset
+Healthcare costs are one of the most significant financial pressures on individuals, insurers, and society. Using a dataset capturing **age, sex, BMI, number of children, smoking status, and region** alongside actual billed insurance charges, this project builds a predictive model for expected charges.
 
-## Why this one matters most to me
+The goal is two-fold: understand **which factors most strongly drive medical costs**, and provide a **cost-estimation tool** that could support risk-based pricing decisions.
 
-As an Actuarial Science student, this is the closest of my ML projects to real actuarial work: turning individual risk factors into a defensible cost estimate is the same fundamental problem actuaries solve when pricing health and life insurance products.
+## 🔍 What it does
 
-## Stack
+| Step | Detail |
+|---|---|
+| 🧹 Clean & explore | EDA of the insurance dataset; distributions and relationships |
+| 📊 Feature analysis | How age, BMI, smoking status, children & region relate to charges |
+| 🤖 Model | Build & evaluate regression models to estimate expected charges |
+| 🧠 Interpret | Identify the strongest cost drivers (smoking status & BMI dominate) |
 
-Python · pandas · numpy · seaborn/matplotlib · scikit-learn (regression models)
+## 💡 Why this one matters to me
 
-## File
+As an **Actuarial Science** student, this is the closest of my ML projects to real actuarial work: turning individual risk factors into a defensible cost estimate is the same fundamental problem actuaries solve when pricing health and life insurance products.
 
-`insurance_final.ipynb`
+## 🛠️ Stack
+
+`Python` · `pandas` · `numpy` · `seaborn / matplotlib` · `scikit-learn`
+
+## 📁 File
+
+[`insurance_final.ipynb`](insurance_final.ipynb) — full walkthrough from data load to model evaluation.
+
+---
+<p align="center"><i>Part of my <a href="https://github.com/buseko-Actuary">applied ML & data science portfolio</a> · Buseko · Insight Analytics</i></p>
